@@ -8,13 +8,15 @@ import { LocationMapsComponent } from './location-maps/location-maps.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WeddingBannerComponent } from './wedding-banner/wedding-banner.component';
+import { PageDividerComponent } from './page-divider/page-divider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DayProgramComponent,
     LocationMapsComponent,
-    WeddingBannerComponent
+    WeddingBannerComponent,
+    PageDividerComponent
   ],
   imports: [
     BrowserModule,
