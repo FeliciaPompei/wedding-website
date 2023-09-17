@@ -1,0 +1,13 @@
+
+.banner-container{
+  height:100vh;
+  .bg-img{
+    height: 72vh;
+    background-image: url("../../assets/img/bg-bruno-isa.jpeg");
+    background-position: center;
+    background-size: cover;
+    .bg-opacity{
+      background-color:rgb(0, 0, 0, 0.5)
+    }
+  }
+}

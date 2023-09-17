@@ -7,12 +7,14 @@ import { DayProgramComponent } from './day-program/day-program.component';
 import { LocationMapsComponent } from './location-maps/location-maps.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WeddingBannerComponent } from './wedding-banner/wedding-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DayProgramComponent,
-    LocationMapsComponent
+    LocationMapsComponent,
+    WeddingBannerComponent
   ],
   imports: [
     BrowserModule,
