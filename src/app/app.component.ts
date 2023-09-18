@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faGripLines, faBars,  } from '@fortawesome/free-solid-svg-icons';
+import { faGripLines, faBars, faCopyright,  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +10,5 @@ export class AppComponent {
   title = 'isa-bruno-wedding';
   faGripLines = faGripLines;
   faBars = faBars;
-
+  faCopyright = faCopyright;
 }

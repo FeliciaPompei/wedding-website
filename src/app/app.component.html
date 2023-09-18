@@ -9,8 +9,9 @@
         </button>
           <nav ngbDropdownMenu>
             <a href="#" ngbDropdownItem>Home</a>
-            <a href="#location-maps" ngbDropdownItem>Location</a>
             <a href="#day-program" ngbDropdownItem>program</a>
+            <a href="#location-maps" ngbDropdownItem>Location</a>
+            <a href="#gift-request" ngbDropdownItem>gift request</a>
           </nav>
         </div>
       </div>
@@ -19,16 +20,24 @@
 <wedding-banner></wedding-banner>
 <page-divider></page-divider>
 <body class="px-4">
-  <location-maps id="location-maps"></location-maps>
   <day-program id="day-program"></day-program>
+  <page-divider></page-divider>
+  <location-maps id="location-maps"></location-maps>
+  <page-divider></page-divider>
+  <gift-request id="gift-request"></gift-request>
+  <page-divider></page-divider>
 </body>
-<footer id="footer" class="py-3 my-4">
-  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-    <li class="nav-item"><a href="#">Home</a></li>
-    <li class="nav-item"><a href="#location-maps">Location</a></li>
-    <li class="nav-item"><a href="#day-program">Program</a></li>
-  </ul>
-  <p class="text-center text-body-secondary">© 2023 Felicia Pompei</p>
+<footer id="footer" class="border-top py-3 mt-4">
+  <div class="align-items-center justify-content-center h-100 mb-2">
+    <div class="col-12 d-flex justify-content-center">
+      <a href="#"><img src="assets/img/main-logo.jpg" alt="Main Logo" class="my-img"></a>
+    </div>
+  </div>
+  <div class="text-center">
+    <h6> Copyright
+      <fa-icon [icon]="faCopyright" class="my-copyright-icon"></fa-icon>
+      Felicia Pompei
+    </h6>
+  </div>
 </footer>
-
 <router-outlet></router-outlet>
