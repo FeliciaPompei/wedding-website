@@ -1,39 +1,39 @@
 
 
-<header class="py-2 px-4 sticky-top">
+<header class="py-2 px-2 sticky-top">
   <div class="text-end">
     <div>
       <div ngbDropdown class="d-inline-block">
         <button type="button" class="btn btn-outline-dark" id="dropdownBasic1" ngbDropdownToggle>
           <fa-icon [icon]="faBars"></fa-icon>
         </button>
-          <nav ngbDropdownMenu>
+          <nav ngbDropdownMenu class="font-typewriter text-end">
             <a href="#" ngbDropdownItem>Home</a>
-            <a href="#day-program" ngbDropdownItem>program</a>
-            <a href="#location-maps" ngbDropdownItem>Location</a>
-            <a href="#gift-request" ngbDropdownItem>gift request</a>
+            <a href="#location-maps" ngbDropdownItem>Location & Orario</a>
+            <a href="#day-program" ngbDropdownItem>Pernottamenti & altro</a>
+            <a href="#gift-request" ngbDropdownItem>Lista nozze</a>
           </nav>
         </div>
       </div>
     </div>
 </header>
 <wedding-banner></wedding-banner>
-<div class="text-center" id="day-program">
-  <img class="elephant-img" src="assets/img/elephant.svg" alt="divider">
-</div>
 <div class="px-4">
-  <day-program ></day-program>
   <div class="text-center" id="location-maps">
-    <img class="my-img" src="assets/img/zebra.svg" alt="divider">
+    <img class="my-img" src="assets/img/elephant.svg" alt="divider">
   </div>
   <location-maps ></location-maps>
-  <div class="text-center" id="gift-request">
+  <div class="text-center" id="day-program">
     <img class="my-img" src="assets/img/lion.svg" alt="divider">
   </div>
-  <gift-request ></gift-request>
-  <div class="text-center">
-    <img class="my-img" src="assets/img/giraffe.svg" alt="divider">
+  <day-program ></day-program>
+  <div class="text-center" id="gift-request">
+    <img class="my-img" src="assets/img/zebra.svg" alt="divider">
   </div>
+  <gift-request ></gift-request>
+  <!-- <div class="text-center">
+    <img class="my-img" src="assets/img/giraffe.svg" alt="divider">
+  </div> -->
 </div>
 <footer id="footer" class="border-top py-3 mt-4">
   <div class="align-items-center justify-content-center h-100 mb-2">
@@ -42,10 +42,10 @@
     </div>
   </div>
   <div class="text-center">
-    <h6> Copyright
+    <div class="font-typewriter"> Copyright
       <fa-icon [icon]="faCopyright" class="my-copyright-icon"></fa-icon>
       Felicia Pompei
-    </h6>
+    </div>
   </div>
 </footer>
 <router-outlet></router-outlet>
