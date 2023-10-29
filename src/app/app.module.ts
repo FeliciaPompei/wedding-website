@@ -8,7 +8,6 @@ import { LocationMapsComponent } from './location-maps/location-maps.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WeddingBannerComponent } from './wedding-banner/wedding-banner.component';
-import { PageDividerComponent } from './page-divider/page-divider.component';
 import { GiftRequestComponent } from './gift-request/gift-request.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { GiftRequestComponent } from './gift-request/gift-request.component';
     DayProgramComponent,
     LocationMapsComponent,
     WeddingBannerComponent,
-    PageDividerComponent,
     GiftRequestComponent,
   ],
   imports: [
