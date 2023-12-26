@@ -1,2 +1,14 @@
 @import "../variables.scss";
 
+.wrapper{
+  display:flex;
+  align-items: flex-start;
+  div.img-wrapper{
+    margin-right: .5rem;
+    width: 15rem;
+    height:15rem;
+    img{
+      width:100%;
+    }
+  }
+}
