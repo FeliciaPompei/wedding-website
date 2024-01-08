@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WeddingBannerComponent } from './wedding-banner/wedding-banner.component';
 import { GiftRequestComponent } from './gift-request/gift-request.component';
+import { RsvpSectionComponent } from './rsvp-section/rsvp-section.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { GiftRequestComponent } from './gift-request/gift-request.component';
     LocationMapsComponent,
     WeddingBannerComponent,
     GiftRequestComponent,
+    RsvpSectionComponent,
   ],
   imports: [
     BrowserModule,
