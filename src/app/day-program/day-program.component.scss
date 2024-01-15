@@ -14,4 +14,26 @@
     width:8rem;
     margin-right: .5rem;
   }
+  .discount-code-container{
+    padding:0.5rem;
+    margin-bottom:1rem;
+    // border: .5px solid black;
+    border-radius: .4rem;
+    box-shadow: -.5em 0 .7em #FDE377;
+    .dropdown-header{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-style{
+        font-size:1.1rem;
+        font-weight:800;
+      }
+      .arrow{
+        font-size:1.5rem;
+      }
+    }
+    .dropdown-container{
+      padding: 10px;
+    }
+  }
 }

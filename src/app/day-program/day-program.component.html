@@ -11,6 +11,41 @@
         <p>
           Per i pernottamenti presso Hotel Punta Negra è possibile avere un prezzo scontato, se si è interessati, avvertire entro e non oltre il 1 marzo 2024.
         </p>
+        <div class="discount-code-container">
+          <div class="dropdown-header" (click)="changeImage()">
+            <div class="font-typewriter header-style">
+              Sconto Hotel Punto Negra
+            </div>
+            <div *ngIf="!isDropdownOpen" class="arrow">
+              <fa-icon [icon]="faAngleDown"></fa-icon>
+            </div>
+            <div *ngIf="isDropdownOpen" class="arrow">
+              <fa-icon [icon]="faAngleUp"></fa-icon>
+            </div>
+          </div>
+          <div class="dropdown-container font-typewriter" *ngIf="isDropdownOpen" >
+            <p>
+              Per i pernottamenti presso Hotel Punta Negra è possibile avere un prezzo scontato:
+            </p>
+            <ul>
+              <li>
+                Accedere al sito internet: <a target="_blank" href="https://www.hotelpuntanegra.it/">Hotel Punta Negra</a>
+              </li>
+              <li>
+                selezionare il numero degli ospiti,
+              </li>
+              <li>
+                selezionare il giorno e il numero delle notti che si intende soggiornare,
+              </li>
+              <li>
+                cliccare su inserisci un codice e nella finestra Special Code inserire il codice sconto wedding2024
+              </li>
+              <li>
+                avviare la ricerca di disponibilità;
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <div class="wrapper">
